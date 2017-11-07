@@ -1,6 +1,6 @@
 # Simulated Annealing
 General form of optimization for finding **global optima** in the presence of many **local optima** in a search space.
-
+* Probabilistic technique for finding an approzimate solution to an optimization problem
 Simlar to [Hill-Climbing](./hill-climbing.md) **but** aims to **avoid getting 'stuck' at local optima**.
 
 * Chooses a **random 'move'**:
