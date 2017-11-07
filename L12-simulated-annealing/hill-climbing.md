@@ -6,6 +6,10 @@ General optimazation strategy for **local search**.
     * If the change produces a better solution -> repeat incremental change on new solution
     * If no improvement found -> return answer
 
+* i.e. 'At each step the current node is replaced by it's **best neighbor**'
+
+* Also known as 'greedy local search'
+
 ## Example
 * One-dimensional state-space 
 * **Elevation** = objective function
@@ -37,4 +41,15 @@ function Hill-Climbing(problem) -> returns a solution state
 ## Problems
 * May **converge on local optima**
     * Not guaranteed to find **global optima**
+* Ridges create a sequence of local maxima which are difficult to navigate
 * Plateaus can cause algorithm to terminate early or to 'wander' in incorrect direction
+
+## Random-Restart Hill-Climbing
+* Series of hill-climb searches from randomly generated initial states
+* *Trivially complete* - probability approaching 1
+    * Eventually generate a goal state as a random initial state
+* Given probability *p* of a hill-climb success:
+    * Expected number of restarts is *1/p*
+* Works quickly for state spaces with a **few local maxima/plateaux**
+    * Where normal hill-climbing would fail
+* For large (up to continuous/infinite) complex state spaces it becomes inefficient 

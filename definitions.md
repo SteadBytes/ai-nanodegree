@@ -7,3 +7,5 @@
     * Are intractable
 **Prior Probability** - 'Buest guess' at a probability before other evidence is taking into account. A probability as assessed before making reference to certain relevant observations, especially subjectively or on the assumption that all possible outcomes be given the same probability.
 **Posterior Probability** - Probability after taking into account an observation.
+
+**Complete Search** - Algorithm which always finds a goal if one exists
