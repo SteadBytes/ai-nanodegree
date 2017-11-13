@@ -50,7 +50,7 @@ function Backtrack(assignment, csp) returns a solution or failure
         * Degree = number of constraints a variable is involved in
     * Reduce **branching factor** on further choices
 * **Least Constraining Value**:
-    * Choose value that rules of the fewest choices for neightbouring variables in the constraint graph
+    * Choose value that rules out the fewest choices for neighbouring variables in the constraint graph
     * Prefers maximum flexibility for subsequent assignments
 
 * Variable selection should be **fail-first**
@@ -58,6 +58,23 @@ function Backtrack(assignment, csp) returns a solution or failure
         * Prunes large parts of tree earlier
 * Value selection should **fail-last**
     * Only need one solution -> look at most likely values first
+### Inference
+* Simple Forward-checking:
+    * Whenever a variable *X* is **assigned**, establish arcs consistency for *X*:
+        * For each unassigned variable *Y*, connected to *X* by a constraint:
+            * Delete from *Y*'s domain any value that is **inconsistent** with the value chosen for *X*
+    * No need to do this if arc-constistency is used as a **pre-processing** step before backtracking search begins.
+    * Doesnt detect *all* inconsistencies:
+        * Makes current variables arc consistent
+            * Doesn't look ahead and make all other variables arc consistent
+        * Use **MAC** algorithm to overcome this
+* Maintaining Arc Consistency (MAC):
+    * After variable *X<sub>i</sub>* is assigned a value:
+        * **Inference()** procedure calls AC-3: 
+            * But with **only the arcs *(X<sub>i</sub>,X<sub>j</sub>)* for all *X<sub>j</sub>* that are unassigned variables that are neighbour of X<sub>i</sub>**
+            * Instead of queue of all arcs in the CSP 
+        * If any variable has its domain reduced to empty set, AC-3 fails and search can backtrack immediately
+    * **Recursively Propagates constraints** when changes are made to the domains of variables
 
 ### Intelligent Backtracking
 * Simple backtracking = backtrack in chronological order
