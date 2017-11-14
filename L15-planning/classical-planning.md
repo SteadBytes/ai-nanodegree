@@ -11,6 +11,7 @@ Representation language and approach for dealing with complexity in problem solv
     * Partial assignment
     * Arbitrary Formula in boolean logic
         * Can represent anything
+* Use **Planning Domain Definition Language** to describe problems
 
 ## Action Schema
 Represents many possible actions that are similar
