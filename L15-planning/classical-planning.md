@@ -92,7 +92,7 @@ Encoded problem and action definitions mean heuristics can be generated programa
 
 ![](../images/2017-11-13-14-43-44.png)
 
-* Relax the problem by automatically **removing a prerequisite**
+* **Ignore Preconditions** heuristic: Relax the problem by automatically **removing a prerequisite**
     * Manhattan distance heuristic:
     * ![](../images/2017-11-13-14-44-27.png)
 
