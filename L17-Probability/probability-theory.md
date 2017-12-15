@@ -85,6 +85,12 @@ Solves the **qualification problem** by providing a way of **summarizing** the u
 **Decision theory** = probability theory + utility theory
 * Utility theory = every state has a degree of usefulness (utility) to an agent and the agent will prefer states of higher utility
 * Decision theory states an agent is rational IFF it chooses the action that yields the highest expected utility, averaged over all the possible outcomes of the action
-* **Maximum Expected Utility**
+
+**Maximum Expected Utility**
 * Average of the outcomes weighted by the probability of the outcome
 * Decision-theoretic agent belief state represent possible states for the world **and their probabilities**
+
+**Chain Rule/General Product Rule**
+* Full joint probability distribution of *n* variables
+* Useful in **Bayes Networks**
+* P(x<sub>1</sub>,x<sub>2</sub>,...,x<sub>n</sub>) = P(x<sub>1</sub>)P(x<sub>2</sub>|x<sub>1</sub>)P(x<sub>3</sub>|x<sub>1</sub>,x<sub>2</sub>)...P(x<sub>n</sub>|x<sub>1</sub>,...,x<sub>n-1</sub>)
