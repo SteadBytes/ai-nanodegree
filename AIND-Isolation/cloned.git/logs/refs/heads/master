@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 b9030132791dc733e8b1b5d22b5cd563c140dee9 Ben Steadman <=> 1509001834 +0100	clone: from https://github.com/udacity/AIND-Isolation.git
+b9030132791dc733e8b1b5d22b5cd563c140dee9 ac09632fb703d00389693d05761c1812202f2216 Ben Steadman <=> 1509036379 +0100	commit: basic minimax implementation
+ac09632fb703d00389693d05761c1812202f2216 24df353e3d2ad2196c6b172187a61a418d3b0746 Ben Steadman <=> 1509089237 +0100	commit: implement alphabeta with iterative deepening
+24df353e3d2ad2196c6b172187a61a418d3b0746 eec93aa88ab2df22b913f1b080f6460cecaab795 Ben Steadman <=> 1509089296 +0100	commit: heuristic decorator and basic num moves heuristic
+eec93aa88ab2df22b913f1b080f6460cecaab795 a26c4b17113cd7e44b90a9fc489b77b03c0222c3 Ben Steadman <=> 1509117933 +0100	commit: initial custom heuristics
+a26c4b17113cd7e44b90a9fc489b77b03c0222c3 74554af52bf8871aff86c7587db649bf06e6021a Ben Steadman <=> 1509121364 +0100	commit: fix minimax depth errors
+74554af52bf8871aff86c7587db649bf06e6021a 2f81eaa6e036bf82f0a163735f3e75244092a20e Ben Steadman <=> 1509375611 +0000	commit: heuristic functions
+2f81eaa6e036bf82f0a163735f3e75244092a20e 38c5b2b0d76c1c700f8c90149f5ccd78112aa2b7 Ben Steadman <=> 1509433763 +0000	commit: alphabeta/minimax return immediately if no legal moves
+38c5b2b0d76c1c700f8c90149f5ccd78112aa2b7 68fdb649c704cda34d674147b9023667d680d457 Ben Steadman <=> 1509465079 +0000	commit: :lightbulb: docstrings, renaming
+68fdb649c704cda34d674147b9023667d680d457 10e5d097658850e2c845416affe282cfa0c2eebf Ben Steadman <=> 1509465115 +0000	commit: tournament.py heuristic test output
+10e5d097658850e2c845416affe282cfa0c2eebf 6d4a84ec19de0ed0c410b0432f534731dc20594c Ben Steadman <=> 1509465125 +0000	commit: heuristic analysis document
+6d4a84ec19de0ed0c410b0432f534731dc20594c 99b0668afc4b6ce05ce3555faef6aae0a3202cc9 Ben Steadman <=> 1509535794 +0000	commit: remove tight_spaces heuristic
+99b0668afc4b6ce05ce3555faef6aae0a3202cc9 e6acde1b30eb44e0e7c0d993849f23c30c21da47 Ben Steadman <=> 1509625415 +0000	commit: final submission

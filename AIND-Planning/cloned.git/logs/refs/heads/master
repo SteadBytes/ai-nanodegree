@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 e1b41242a8ec06dcdc01bb6d37c10ea9eb11dd09 Ben Steadman <=> 1510668431 +0000	clone: from https://github.com/udacity/AIND-Planning
+e1b41242a8ec06dcdc01bb6d37c10ea9eb11dd09 b7cc26503520f5ff075afb0362b371c81885d387 Ben Steadman <=> 1510681759 +0000	commit: implement actions
+b7cc26503520f5ff075afb0362b371c81885d387 406095a93a8884334ba3f720a18810a848e16eae Ben Steadman <=> 1510683046 +0000	commit: implement result method
+406095a93a8884334ba3f720a18810a848e16eae e201cb75f9f43943f3f4be0ad0e620a0eb393669 Ben Steadman <=> 1510753895 +0000	commit: add other other problem definitions, fix actions implementation (forgot to add actions as subarrays)
+e201cb75f9f43943f3f4be0ad0e620a0eb393669 8ec9bd4068c5d22dcb7b5dbeb2a20c1605f96291 Ben Steadman <=> 1510835758 +0000	commit: uninformed search results/metrics
+8ec9bd4068c5d22dcb7b5dbeb2a20c1605f96291 5905b50f2d014dbdc99810bd2bb2ce0f0b2701c7 Ben Steadman <=> 1511185868 +0000	commit: implement ignore preconditions heuristic
+5905b50f2d014dbdc99810bd2bb2ce0f0b2701c7 a502b00b2a1caa3c60dd7d6272a4711da7a62732 Ben Steadman <=> 1511199570 +0000	commit: Planning Graph with automatic heuristics
+a502b00b2a1caa3c60dd7d6272a4711da7a62732 53a207573c1e2278309e6c0e8c8d09d6c5361134 Ben Steadman <=> 1511260456 +0000	commit: add informed search metrics
+53a207573c1e2278309e6c0e8c8d09d6c5361134 a1e93993d28b85dada80251dcd28ff7612da850c Ben Steadman <=> 1511335069 +0000	commit: h_ignore_preconditions more pythonic
+a1e93993d28b85dada80251dcd28ff7612da850c 91f154ee22a09aa272d58a0fa380d1d10171b528 Ben Steadman <=> 1511335084 +0000	commit: heuristic analysis and research review
