@@ -117,3 +117,36 @@ w'<sub>i</sub> = w<sub>i</sub> - &alpha;[-(y-y&#770;)x<sub>i</sub>]
 b' = b + &alpha;(y-y&#770;)x<sub>i</sub>
 
 Note: &alpha; is a constant that also that takes into account the 1/m term for averages. Could be written as 1/m &middot; &alpha;
+
+### Gradient Descent vs Perceptron Algorithm
+At each step:
+* Gradient Descent
+    * Change w<sub>i</sub> to w<sub>i</sub> + &alpha;(y-y&#770;)x<sub>i</sub>
+* Perceptron Algorithm:
+    * If x is missclassified:
+        * Change w<sub>i</sub> to:
+            * w<sub>i</sub> + &alpha;x<sub>i</sub> **if positive**
+        * w<sub>i</sub> - &alpha;x<sub>i</sub> **if negative**
+    * Therefore:
+        * If x is correctly classified:
+            * y-y&#770; = 0
+        * I x is missclassified:
+            * y-y&#770; = 1 if positive
+            * y-y&#770; = -1 if negative
+
+The two are equivalent **except**:
+* y&#770; in Gradient Descent can take any value in range 0->1
+* y&#770; in Perceptron Algorithm can only be one of [0,1]
+
+#### Graph Visualisation
+When a point is **incorrectly classified** both algorithms behave the same - moving the line closer to the point:
+
+![](../../images/2018-01-18-11-36-29.png)
+
+When a point is **correctly classified**, Perceptron Algorithm **does nothing**:
+
+![](../../images/2018-01-18-11-37-47.png)
+
+Gradient Descent algorithm moves the line **further from the point** in order to **minimise the error** (maximise likelihood of point being classified correctly:
+
+![](../../images/2018-01-18-11-38-21.png)
