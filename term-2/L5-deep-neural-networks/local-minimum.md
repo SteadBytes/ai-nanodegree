@@ -23,4 +23,21 @@ Each step is the average of the previous steps, weighted by &beta; momentum cons
 
 ![](../../images/2018-01-23-07-49-27.png)
 
-See [Optimizers](./optimizers.md) notes for futher detail and solutions.
+## Nesterov Accelerated Gradient (NAG)
+Extension of momentum that slows down as gradient begins to increase to smooth the ascent.
+* momentum = ball rolling down a hill, following the slope blindly
+* NAG = smarter ball, has notion of where it is going to it slows down before the hill slopes up again
+
+NAG makes a jump in the direction of the previous accumulated gradient, then measures this new gradient and makes a **correction**.
+
+![](../../images/2018-01-23-08-39-21.png)
+*  Blue = Momentum
+* Brown = first NAG jump
+* Red = NAG correction
+* Green = NAG complete update
+
+Anticipatory update prevents moving too fast &rarr; increased responsiveness.
+
+Updates adapte to the slope of the error function &rarr; speed up Gradient Descent.
+
+See [Optimizers](./optimizers.md) notes for futher detail and solutions to gradient descent problems.
