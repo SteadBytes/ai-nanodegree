@@ -49,3 +49,5 @@ W<sub>t+1</sub> = W<sub>t</sub> - (&alpha;/sqrt(G<sub>t</sub>+&epsilon;))&#8857;
     * &epsilon; = smoothing term (avoid division by 0, often 1e-8)
 * G<sub>t</sub> contains sum of squares of past gradients w.r.t all parameters W along its diagonal &rarr; can **vectorize** using lement-wise matrix-vector multiplication - &#8857; between G<sub>t</sub> and g<sub>t</sub>:
     * W<sub>t+1</sub> = W<sub>t</sub> - (&alpha;/sqrt(G<sub>t</sub>+&epsilon;))&#8857; g<sub>t</sub>
+
+## Adadelta
