@@ -23,7 +23,7 @@ Range is between **-1,1** &rarr; derivatives are larger than Sigmoid.
 ### Rectified Linear Unit (ReLU)
 ![](../../images/2018-01-23-07-27-50.png)
 
-For input *x*: returns **maxi(*x*,0)**
+For input *x*: returns **max(*x*,0)**
 * If *x* is positive -> returns *x*
 * Else returns 0
 
