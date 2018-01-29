@@ -39,6 +39,8 @@ Filters 1 and 2 detect vertical edges. Filters 3 and 4 detect horizontal edges:
 
 ![](../../images/2018-01-29-11-58-11.png)
 
+Similar to weights in an MLP, filters are initialised randomly and adjusted during training.
+
 ## Colour Images
 Interpreted as 3d array of 2d matrices, for RGB each corresponding to one of Red Green and Blue channels:
 * ![](../../images/2018-01-29-12-00-43.png)
