@@ -1,6 +1,6 @@
 # Local Connectivity
 
-MLP for recognising images ( for example [aind2-cnn/mnist-mlp](./aind2-cnn/mnist-mlp/mnist_mlp.ipynb)) has drawbacks -> CNN gives improvements.
+MLP for recognising images ( for example [aind2-cnn/mnist-mlp/mnist_nlp.ipynb](./aind2-cnn/mnist-mlp/mnist_mlp.ipynb)) has drawbacks -> CNN gives improvements.
 
 * Multi-Layer Perceptrons (MLP)
     * Use only **fully** connected layers
