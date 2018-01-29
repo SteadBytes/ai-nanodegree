@@ -2,7 +2,7 @@
 A type of hidden layer using local connectivity - that can be used in CNN's.
 * Nodes in each layer are connected to a small subset of the previous layers nodes
 
-1. Select a width and height for a **convolution window**
+1. Select a width and height for an **image kernel/convolution window** (called either)
     * ![](../../images/2018-01-29-11-47-00.png)
 2. 'Slide' convolution window horizontally and vertically over matrix of image pixels
     * ![](../../images/2018-01-29-11-47-18.png)
