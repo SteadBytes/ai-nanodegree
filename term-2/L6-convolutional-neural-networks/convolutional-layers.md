@@ -11,6 +11,8 @@ A type of hidden layer using local connectivity - that can be used in CNN's.
     * ![](../../images/2018-01-29-11-47-47.png)
 5. All the hidden nodes for the image produce a convolutional layer
 
+[Image Kernel Visualization](http://setosa.io/ev/image-kernels/)
+
 View [aind2-cnn/conv-visualization/conv_visualization.ipynb](./aind2-cnn/conv-visualization/conv_visualization.ipynb)
 
 ## Filters
