@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 ef8c9c1b8f876db449bf0057d1c100322ca05e5a Ben Steadman <=> 1520198681 +0000	clone: from https://github.com/udacity/AIND-CV-Mimic.git
+ef8c9c1b8f876db449bf0057d1c100322ca05e5a ef8c9c1b8f876db449bf0057d1c100322ca05e5a Ben Steadman <=> 1520450532 +0000	reset: moving to HEAD
+ef8c9c1b8f876db449bf0057d1c100322ca05e5a 2da23577830bc88dab1e4aa1bdad85dd6f023a04 Ben Steadman <=> 1520450614 +0000	commit: Change server_address to 0.0.0.0 for access from other devices
+2da23577830bc88dab1e4aa1bdad85dd6f023a04 54b7858def085c097d208d90920c3532bd71dade Ben Steadman <=> 1520450626 +0000	commit: Complete Mimic game
