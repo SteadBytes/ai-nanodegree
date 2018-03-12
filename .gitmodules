@@ -21,3 +21,8 @@
 [submodule "projects/AIND-Sudoku"]
     path = projects/AIND-Sudoku
     url = git@github.com:SteadBytes/AIND-Sudoku.git
+
+[submodule "projects/AIND-dog-project"]
+    path = projects/AIND-dog-project
+    url = git@github.com:SteadBytes/AIND-dog-project.git
+
