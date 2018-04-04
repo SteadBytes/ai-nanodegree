@@ -26,3 +26,6 @@
     path = projects/AIND-dog-project
     url = git@github.com:SteadBytes/AIND-dog-project.git
 
+[submodule "projects/AIND-CV-FacialKeypoints"]
+    path = projects/AIND-CV-FacialKeypoints
+    url = git@github.com:SteadBytes/AIND-CV-FacialKeypoints.git
